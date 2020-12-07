@@ -1,5 +1,8 @@
 // Your code here
-let sourceArray=[1, 2, 3, -9];
-let mapToNegativize=[];
-let i;
-mapToNegativize.map(sourceArray[i]*-1);
+//let sourceArray=[1, 2, 3, -9];
+
+function mapToNegativize(sourceArray){
+  
+  sourceArray.map(i*-1);
+}
+mapToNegativize([1, 2, 3, -9]);
