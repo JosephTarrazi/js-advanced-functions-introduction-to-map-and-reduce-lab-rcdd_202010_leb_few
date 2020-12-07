@@ -3,6 +3,6 @@
 
 function mapToNegativize(sourceArray){
   for(let elem of sourceArray){
-  sourceArray.map(i*-1);}
+  sourceArray.map(sourceArray[i]*-1);}
 }
 mapToNegativize([1, 2, 3, -9]);
